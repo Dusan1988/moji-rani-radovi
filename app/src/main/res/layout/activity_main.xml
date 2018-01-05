@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.code.vezbanje.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/zbir_dva_broja"
+        android:text="@string/prvo_dugme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/prvi_rezultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="prvi rezultat"/>
+
+    <Button
+        android:id="@+id/samo_dugme"
+        android:text="@string/drugo_dugme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nasumicni_broj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="nasumicni broj"/>
+
+    <Button
+        android:id="@+id/ukupan_rezultat"
+        android:text="@string/trece_dugme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
